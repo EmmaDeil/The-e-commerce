@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>login</title>
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <div class="account" style="height: 700px;">
+      <h6>KINZVERSE</h6>
+      <h2 class="labe">Welcome Back</h2>
+      <form action="" class="">
+        <p class="already">Do not have an account? 
+            <a href="/signup.html" id="signup">  Create an account</a>
+        </p>
+        <div class="row too">
+          <input type="email" id="email" placeholder="Email" required>
+          <input type="password" id="password" placeholder="Password" required>
+        </div>
+        <div class="d-flex justify-content-between mt-4">
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="checkDefault">
+          <label class="form-check-label" for="checkDefault">Remember me for 30 days</label>
+        </div>
+        <a href="#" class="forget">Forget password?</a>
+        </div>
+        <button type="submit" class="btn btn-primary" id="submit">Sign In</button>
+        <div class="hr-with-text">or continue with</div>
+        <div class="d-flex justify-content-between one">
+          <button type="submit" class="btn btn-outline-dark">
+            <i class="bi bi-google inline-block"></i> Google
+          </button>
+          <button type="submit" class="btn btn-outline-dark">
+            <i class="bi bi-facebook inline-block"></i> Facebook
+          </button>
+          <button type="submit" class="btn btn-outline-dark">
+            <i class="bi bi-apple inline-block"></i> Apple
+          </button>
+        </div>
+        <a href="#" class="help">Need help?</a>
+      </form>
+  </div>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
